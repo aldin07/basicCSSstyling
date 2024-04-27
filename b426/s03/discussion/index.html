@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>CSS Introduction</title>
+		<!-- External Styling -->
+		<link rel="stylesheet" type="text/css" href="./index.css">
+	</head>
+	<body>
+		<!-- navbar -->
+		<nav id="top">
+			<a href="#landing" class="nav-link" id=>Home</a>
+			<a href="#register" class="nav-link">Register</a>
+		</nav>
+		<section id="landing">
+			<h1 class="title" id="hello">Hello World</h1>
+			<h2 class="title">Welcome to Zuitt</h2>
+			<h3 class="title">Opportunities for everyone, everywhere!</h3>
+			<div>
+				<img src="https://i.imgur.com/74cDiPR.png" id="logo">
+			</div>
+			<a href="#top">Back to Top</a>
+		</section>
+		
+		<section id="register">
+			<h2>Register Now</h2>
+			<form>
+                <div>
+                    <label for="email">Email Address:</label>
+                    <input type="email" name="email" id="email" required autocomplete>
+                 </div>
+                 <div>
+                    <label for="pass">Password:</label>
+                    <input type="password" name="pass" id="pass" required autocomplete>
+                 </div>
+                 <div>
+                    <label for="cpass">Confirm Password:</label>
+                    <input type="password" name="cpass" id="cpass" required autocomplete>
+                 </div>
+                     <button type="submit">Apply Now</button>
+            </form>
+            <a href="#top">Back to Top</a>
+		</section>
+	</body>
+</html>

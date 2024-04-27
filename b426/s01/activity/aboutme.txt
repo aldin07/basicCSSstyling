@@ -1,0 +1,5 @@
+IT Project based - create a report using VBA
+IT CIM Technician - 1st level support for Manufacturing Execution System and Enterprise Application, develop using Delphi  
+IT CIM Engineer - 2nd level support for Manufacturing Execution System and Enterprise Application, develop using Java, Delphi
+Sr Systems Analyst - 3rd level support for Enterprise Application, develop using Java
+Open System Developer - Develop using batch and vbs script

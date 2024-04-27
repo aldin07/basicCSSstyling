@@ -1,0 +1,95 @@
+/*Universal Selector*/
+/*font-family property changes the styles of the font., monospace will trigger is when no available Courier New*/
+/*margin property changes the amount of space between the border and the element*/
+/*box-sizing property defines how the width and height is calculated*/
+*{
+	font-family: "Courier New", monospace;
+	/*	CSS RESET */
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*Type Selector*/
+h1{
+	font-family: "Tahoma", sans-serif;
+}
+/* It allows to change the background color of an element */
+body{
+	background-color: skyblue;
+}
+
+/*changes the alignment of the text elements*/
+section{
+	text-align: center;
+}
+
+/*Class selector*/
+/*font-size determines the size of the text of an element. px stands for pixels. The default font size of a text is 16px*/
+.nav-link{
+	font-size: 18px;
+}
+
+/*padding is a property that allows to add space within element*/
+nav{
+	background-color: white;
+	text-align: center;
+	padding: 15px;
+}
+
+/*color is a CSS property that changes the text color of an element*/
+.title{
+	color: green;
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*ID selector*/
+/*depends on the universal font-size, if may sinet sa (*) if font-size 20 , then 2*20 = 40px will be the fonr-size below*/
+#hello{
+	color: black;
+	font-size: 2rem;
+}
+
+/*height property changes the vertical dimensions of an element*/
+/*width property changes the horizontal dimensions of an element*/
+/*border-radius property changes the corners of an element a sharp to arounded corner*/
+#logo{
+	height: 300px;
+	width:  300px;
+	border-radius: 150px;
+
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+a{
+	text-decoration: none;
+}
+
+#register{
+	height: 350px;
+	width: 350px;
+	background-color: white;
+
+	border: 1px solid black;
+	padding: 50px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+button{
+	margin-top: 10px;
+	padding: 10px;
+}
+
+html{
+	scroll-behavior: smooth;
+}

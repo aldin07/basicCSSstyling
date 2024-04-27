@@ -1,0 +1,112 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: Georgia, Garamond;
+}
+
+nav{
+	padding: 16px;
+	border-bottom: 4px;
+	background-color: gainsboro;
+	display: flex;
+    justify-content: center;
+}
+
+.nav-link{
+	padding: 0;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: midnightblue;
+}
+body {
+    /* Set the background image */
+    background-image: url('https://images.unsplash.com/photo-1631943406801-ba6ccfa4f682?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+
+    /* Set background properties */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+}
+
+a{
+	text-decoration: none;
+}
+
+#landing{
+	text-align: center;
+}
+
+#profile{
+	width: 300px;
+	height: 300px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 150px;
+}
+
+#name, #title{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#intro{
+	width: 200px;
+	margin: auto;
+}
+
+#tools{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#tools-title{
+	margin-bottom: 50px;
+}
+
+.tools-img{
+	height: 100px;
+	width: 100px;
+
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#projects{
+	text-align: center;
+	}
+
+.card{
+	background-color: gray;
+	height: 400px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-top: 30px;
+}
+
+.card-img{
+	height: 300px;
+	width: 300px;
+  padding-top: 10px;
+}
+
+#contact{
+	text-align: center;
+	padding-bottom: 16px;
+	padding-top: 16px;
+	padding-left: 16px;
+	padding-right: 16px;
+
+	margin-top: 4px;
+	background-color: gainsboro;
+}
+
+.body{
+  background: linear-gradient(black, white);
+  background-repeat: no-repeat;
+}
+
